@@ -3,10 +3,78 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" >
         <meta charset="UTF-8">
-        <title>Holberton Headphones</title>
-        <link rel="stylesheet" href="styles/complete.css">
+        <title>Smile School</title>
+        <link rel="stylesheet" href="styles.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
     </head>
     <body>
-
+        <!-- first section -->
+        <section class="sec-smiles">&nbsp
+            <!-- header -->
+            <header>
+                <div class="d-flex flex-column flex-sm-row align-items-center w-100
+                justify-content-sm-between justify-content-center mt-4">
+                    <div class="logo d-flex flex-column flex-sm-row align-items-center justify-content-sm-between mt-3 mb-5 my-sm-0 ml-sm-4">
+                        <img class="mb-3 mb-sm-0" src="images/smile_off.png" alt="Cocky Smile" width="37px" height="30px">
+                        <img src="images/logo.png" alt="Smile School" width="112px" height="30px">
+                    </div>
+                    <nav class="collapse d-sm-flex flex-column flex-sm-row mr-sm-4" id="nav-links">
+                        <a href="#what-we-do" class="nav-link text-center text-white">COURSES</a>
+                        <a href="#our-results" class="nav-link text-center text-white">PRICING</a>
+                        <a href="#contact-us" class="nav-link text-center text-white">LOGIN</a>
+                    </nav>
+                    <!-- Hamburger Menu -->
+                    <span class="mobile-label d-sm-none mt-n2 text-white"></span>
+                    <button class="nav-bar-toggle position-absolute d-sm-none bg-transparent" type="button" data-toggle="collapse" data-target="#nav-links" aria-expanded="false" aria-label="Toggle nav-bar">
+                    </button>
+                </div>
+            </header>
+            <div class="d-flex flex-column align-items-center w-95 my-5 text-white">
+                <h1 class="school display-2 font-weight-bold mt-5 text-nowrap">Get Schooled</h1>
+                <div class="school-text d-flex flex-row justify-content-between">
+                    <span>SMILES</span>
+                    <span>GRIN</span>
+                    <span>LAUGH</span>
+                </div>
+                <button class="btn rounded-pill px-4 py-2 mt-5 text-white shadow" type="submit">REGISTER FOR FREE</button>
+                <div class="my-5"></div>
+                <h2 class="my-5 pt-5"><span class="text-purple">Learn</span> from the pros</h2>
+                <div class="awards d-flex flex-column flex-md-row justify-content-center text-center w-100 pt-5">
+                    <div class="awards-grp d-flex flex-row justify-content-around">
+                        <div class="py-3 mb-5">
+                            <img class="img-fluid rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="150px" height="150px">
+                            <h1 class="font-weight-bold lead pt-4">Phillip Massey</h1>
+                            <p class="card-text font-italic">« Smile of the year »<br>2018-2019</p>
+                        </div>
+                        <div class="py-3 mb-5">
+                            <img class="img-fluid rounded-circle" src="images/profile_2.jpg" alt="profile_2" width="150px" height="150px">
+                            <h1 class="font-weight-bold lead pt-4">Nannie Lawrence</h1>
+                            <p class="card-text font-italic">Best « little smile »<br>2017</p>
+                        </div>
+                    </div>
+                    <div class="awards-grp d-flex flex-row justify-content-around">
+                        <div class="py-3 mb-5">
+                            <img class="img-fluid rounded-circle" src="images/profile_3.jpg" alt="profile_3" width="150px" height="150px">
+                            <h1 class="font-weight-bold lead pt-4">Bruce Walters</h1>
+                            <p class="card-text font-italic">Best « Friend Smile »<br>live performance 2019</p>
+                        </div>
+                        <div class="py-3 mb-5">
+                            <img class="img-fluid rounded-circle" src="images/profile_4.jpg" alt="profile_4" width="150px" height="150px">
+                            <h1 class="font-weight-bold lead pt-4">Henry Hughes</h1>
+                            <p class="card-text font-italic">« 24hr smiles » winner<br>2016-2019</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
