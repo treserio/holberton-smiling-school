@@ -76,15 +76,16 @@
                 </div>
             </div>
         </section>
-        <section class="carolsel pb-5 text-white">&nbsp
+        <!-- comments -->
+        <section class="comments pb-5 text-white">&nbsp
             <div class="my-5 py-md-4">
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div id="comment-carousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <!-- actual card element -->
                         <div class="carousel-item active">
                             <div class="d-flex flex-column flex-md-row justify-content-around justify-content-md-center align-items-center">
                                 <img class="img-fluid rounded-circle mb-4 mb-md-0" src="images/profile_5.jpg" alt="profile_5" width="160px" height="160px">
-                                <div class="carol-text ml-md-5 mr-md-0 flex-column">
+                                <div class="comment-text ml-md-5 mr-md-0 flex-column">
                                     <div>« Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun!</div>
                                     <h4 class="mt-3 mb-0">Person Name</h4>
                                     <i>weather presenter</i>
@@ -95,7 +96,7 @@
                         <div class="carousel-item">
                             <div class="d-flex flex-column flex-md-row justify-content-around justify-content-md-center align-items-center">
                                 <img class="img-fluid rounded-circle mb-4 mb-md-0" src="images/profile_5.jpg" alt="profile_5" width="160px" height="160px">
-                                <div class="carol-text ml-md-5 mr-md-0 flex-column">
+                                <div class="comment-text ml-md-5 mr-md-0 flex-column">
                                     <div>« Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun!</div>
                                     <h4 class="mt-3 mb-0">Person Name</h4>
                                     <i>weather presenter</i>
@@ -106,7 +107,7 @@
                         <div class="carousel-item">
                             <div class="d-flex flex-column flex-md-row justify-content-around justify-content-md-center align-items-center">
                                 <img class="img-fluid rounded-circle mb-4 mb-md-0" src="images/profile_5.jpg" alt="profile_5" width="160px" height="160px">
-                                <div class="carol-text ml-md-5 mr-md-0 flex-column">
+                                <div class="comment-text ml-md-5 mr-md-0 flex-column">
                                     <div>« Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun!</div>
                                     <h4 class="mt-3 mb-0">Person Name</h4>
                                     <i>weather presenter</i>
@@ -117,7 +118,7 @@
                         <div class="carousel-item">
                             <div class="d-flex flex-column flex-md-row justify-content-around justify-content-md-center align-items-center">
                                 <img class="img-fluid rounded-circle mb-4 mb-md-0" src="images/profile_5.jpg" alt="profile_5" width="160px" height="160px">
-                                <div class="carol-text ml-md-5 mr-md-0 flex-column">
+                                <div class="comment-text ml-md-5 mr-md-0 flex-column">
                                     <div>« Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun!</div>
                                     <h4 class="mt-3 mb-0">Person Name</h4>
                                     <i>weather presenter</i>
@@ -125,12 +126,141 @@
                             </div>
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                        <img class="carolarrow font-weight-bold" src="images/arrow_white_left.png" alt="carousel left">
+                    <a class="carousel-control-prev" href="#comment-carousel" role="button" data-slide="prev">
+                        <img class="carolarrow" src="images/arrow_white_left.png" alt="carousel left">
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                        <img class="carolarrow font-weight-bold" src="images/arrow_white_right.png" alt="carousel right">
+                    <a class="carousel-control-next" href="#comment-carousel" role="button" data-slide="next">
+                        <img class="carolarrow" src="images/arrow_white_right.png" alt="carousel right">
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="most-pop">
+            <div class="d-flex flex-column align-items-center my-5 py-md-4">
+                <h2>Most <span class="text-purple">popular</span> tutorials</h2>
+                <div class="pop-vids-4 carousel slide mt-5" id="most-pop-carousel-4" data-interval="false">
+                    <div class="carousel-inner">
+                        <!-- actual card element -->
+                        <div class="carousel-item active">
+                            <div class="d-flex flex-row justify-content-around">
+                                <div>
+                                    <img  src="images/thumbnail_1.jpg" width="255" height="154">
+                                </div>
+                                <div>
+                                    <img  src="images/thumbnail_2.jpg" width="255" height="154">
+                                </div>
+                                <div>
+                                    <img  src="images/thumbnail_3.jpg" width="255" height="154">
+                                </div>
+                                <div>
+                                    <img  src="images/thumbnail_4.jpg" width="255" height="154">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- actual card element -->
+                        <div class="carousel-item">
+                            <div class="d-flex flex-row justify-content-around">
+                                <div>
+                                    <img  src="images/thumbnail_2.jpg" width="255" height="154">
+                                </div>
+                                <div>
+                                    <img  src="images/thumbnail_3.jpg" width="255" height="154">
+                                </div>
+                                <div>
+                                    <img  src="images/thumbnail_1.jpg" width="255" height="154">
+                                </div>
+                                <div>
+                                    <img  src="images/thumbnail_4.jpg" width="255" height="154">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev ml-n5 justify-content-start" href="#most-pop-carousel-4" role="button" data-slide="prev">
+                        <img class="h-50" src="images/arrow_black_left.png" alt="carousel left">
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next mr-n5 justify-content-end" href="#most-pop-carousel-4" role="button" data-slide="next">
+                        <img class="h-50" src="images/arrow_black_right.png" alt="carousel right">
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="pop-vids-2 carousel slide mt-5" id="most-pop-carousel-2" data-interval="false">
+                    <div class="carousel-inner">
+                        <!-- actual card element -->
+                        <div class="carousel-item active">
+                            <div class="d-flex flex-row justify-content-around">
+                                <div>
+                                    <img  src="images/thumbnail_1.jpg" width="255" height="154">
+                                </div>
+                                <div>
+                                    <img  src="images/thumbnail_2.jpg" width="255" height="154">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- actual card element -->
+                        <div class="carousel-item">
+                            <div class="d-flex flex-row justify-content-around">
+                                <div>
+                                    <img  src="images/thumbnail_4.jpg" width="255" height="154">
+                                </div>
+                                <div>
+                                    <img  src="images/thumbnail_3.jpg" width="255" height="154">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev ml-n5 justify-content-start" href="#most-pop-carousel-2" role="button" data-slide="prev">
+                        <img class="h-50" src="images/arrow_black_left.png" alt="carousel left">
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next mr-n5 justify-content-end" href="#most-pop-carousel-2" role="button" data-slide="next">
+                        <img class="h-50" src="images/arrow_black_right.png" alt="carousel right">
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="pop-vids-1 carousel slide mt-5" id="most-pop-carousel-1" data-interval="false">
+                    <div class="carousel-inner">
+                        <!-- actual card element -->
+                        <div class="carousel-item active">
+                            <div class="d-flex flex-row justify-content-around">
+                                <div>
+                                    <img  src="images/thumbnail_1.jpg" width="255" height="154">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- actual card element -->
+                        <div class="carousel-item">
+                            <div class="d-flex flex-row justify-content-around">
+                                <div>
+                                    <img  src="images/thumbnail_4.jpg" width="255" height="154">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- actual card element -->
+                        <div class="carousel-item">
+                            <div class="d-flex flex-row justify-content-around">
+                                <div>
+                                    <img  src="images/thumbnail_2.jpg" width="255" height="154">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- actual card element -->
+                        <div class="carousel-item">
+                            <div class="d-flex flex-row justify-content-around">
+                                <div>
+                                    <img  src="images/thumbnail_3.jpg" width="255" height="154">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev ml-n5 justify-content-start" href="#most-pop-carousel-1" role="button" data-slide="prev">
+                        <img class="h-50" src="images/arrow_black_left.png" alt="carousel left">
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next mr-n5 justify-content-end" href="#most-pop-carousel-1" role="button" data-slide="next">
+                        <img class="h-50" src="images/arrow_black_right.png" alt="carousel right">
                         <span class="sr-only">Next</span>
                     </a>
                 </div>

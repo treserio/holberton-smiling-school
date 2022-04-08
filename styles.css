@@ -90,17 +90,13 @@
     width: 50%;
 }
 
-/* =============== carousel =============== */
+/* =============== comments =============== */
 
-.carolsel {
+.comments {
     background-color: var(--purple);
 }
 
-.carousel-item {
-    background-color: var(--purple);
-}
-
-.carol-text {
+.comment-text {
     width: 50%;
 }
 
@@ -108,27 +104,53 @@
     height: 50%;
 }
 
-/* =============== mobile 768 =============== */
+/* =============== videos =============== */
 
-@media (max-width:768px) {
+.pop-vids-4, .pop-vids-2, .pop-vids-1 {
+    display: none;
+    width: 80%;
+}
+
+/* =============== mobile >= 1200 =============== */
+
+@media (min-width:1200px) {
+    .pop-vids-4 {
+        display: flex !important;
+    }
+}
+
+/* =============== mobile < 1200 =============== */
+
+@media (min-width:576px) and (max-width:1199px) {
+    .pop-vids-2 {
+        display: flex !important;
+    }
+}
+
+/* =============== mobile < 768 =============== */
+
+@media (max-width:767px) {
     .awards-grp {
         width: 100%;
     }
 
-    .carol-text {
+    .comment-text {
         width: 75%;
     }
 
     .carolarrow {
-        height: 20% !important;
+        height: 25% !important;
     }
 }
 
+/* =============== mobile < 576 =============== */
 
-/* =============== mobile 576 =============== */
-
-@media (max-width:576px) {
+@media (max-width:575px) {
     .school {
         font-size: 15vw !important;
+    }
+
+    .pop-vids-1 {
+        display: flex !important;
     }
 }
