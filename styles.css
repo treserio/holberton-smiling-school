@@ -87,7 +87,7 @@
 }
 
 .awards-grp {
-    width: 50%;
+    width: 100%;
 }
 
 /* =============== comments =============== */
@@ -125,6 +125,29 @@
     font-size: 14px;
 }
 
+/* =============== free-mem =============== */
+
+.free-mem {
+    background-color: #071629;
+}
+
+.fm-items {
+    max-width: 1100px;
+}
+
+.fm-items-grp {
+    width: 80%;
+}
+
+.fm-item {
+    width: 221px;
+}
+
+/* =============== footer =============== */
+footer {
+    background-color: #071629;
+}
+
 /* =============== mobile >= 1200 =============== */
 
 @media (min-width:1200px) {
@@ -144,10 +167,6 @@
 /* =============== mobile < 768 =============== */
 
 @media (max-width:767px) {
-    .awards-grp {
-        width: 100%;
-    }
-
     .comment-text {
         width: 75%;
     }
