@@ -111,6 +111,20 @@
     width: 80%;
 }
 
+.card {
+    max-width: 255px;
+}
+
+.play-btn {
+    position: absolute;
+    top: 45px;
+    left: 95.5px;
+}
+
+.card small {
+    font-size: 14px;
+}
+
 /* =============== mobile >= 1200 =============== */
 
 @media (min-width:1200px) {
