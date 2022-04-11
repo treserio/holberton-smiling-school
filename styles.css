@@ -148,6 +148,29 @@ footer {
     background-color: #071629;
 }
 
+/* social icons */
+.social-grp {
+    width: 130px;
+    height: 30px;
+}
+
+.social-icon {
+    font-family: 'holberton_school-icon' !important;
+    font-size: 30px;
+}
+
+.facebook:before {
+    content: "\e908";
+}
+
+.twitter:before {
+    content: "\e90f";
+}
+
+.instagram:before {
+    content: "\e90a";
+}
+
 /* =============== mobile >= 1200 =============== */
 
 @media (min-width:1200px) {
