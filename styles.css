@@ -206,8 +206,18 @@ footer {
     content: "\e905";
 }
 
-/* =============== FAQs =============== */
+/* =============== Courses page =============== */
+.courses-hero {
+    width: 100%;
 
+    background: url("images/pic_3.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.courses-title {
+    width: 480px;
+    font-weight: bold;
+}
 
 /* =============== mobile >= 1200 =============== */
 
