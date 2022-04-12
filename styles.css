@@ -35,6 +35,10 @@
     border-color: var(--purple) !important;
 }
 
+.font-18 {
+    font-size: 18px;
+}
+
 /* =============== first-section =============== */
 /* =============== sec-smiles =============== */
 
@@ -171,6 +175,40 @@ footer {
     content: "\e90a";
 }
 
+/* =============== Pricing Page =============== */
+/* =============== Hero Section =============== */
+
+.pricing-hero {
+    width: 100%;
+
+    background: url("images/pic_2.jpg") center no-repeat;
+    background-size: cover;
+}
+
+/* pricing table */
+.pricing-tbl {
+    max-width: 1110px;
+}
+
+.pricing-tbl button {
+    min-width: 162px;
+    font-size: 14px;
+}
+
+.pricing-tbl small {
+    font-size: 12px;
+}
+
+.circle-check:before {
+    font-size: 28px;
+    color: #82D24F;
+    font-family: 'holberton_school-icon' !important;
+    content: "\e905";
+}
+
+/* =============== FAQs =============== */
+
+
 /* =============== mobile >= 1200 =============== */
 
 @media (min-width:1200px) {
@@ -197,7 +235,14 @@ footer {
     .carolarrow {
         height: 25% !important;
     }
+
+    .whatis {
+        height: 30px;
+        font-size: 30px;
+    }
 }
+
+/* pricing hero header font-size here same with images */
 
 /* =============== mobile < 576 =============== */
 
