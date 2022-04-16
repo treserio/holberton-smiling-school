@@ -206,7 +206,7 @@ footer {
     content: "\e905";
 }
 
-/* =============== Courses page =============== */
+/* =============== Courses Page =============== */
 .courses-hero {
     width: 100%;
 
@@ -217,6 +217,44 @@ footer {
 .courses-title {
     width: 480px;
     font-weight: bold;
+}
+
+/* search-bar */
+.search-bar {
+    background: var(--purple);
+}
+
+.input-group-append .search-icon {
+    font-family: 'holberton_school-icon' !important;
+    font-size: 20px;
+}
+
+.search-bar .search-icon:before {
+    content: '\e912';
+}
+
+.search-bar input,
+.search-bar select,
+.input-group-append,
+input[type=search]::placeholder {
+    background: #d195ff;
+    color: #FFF;
+    outline: 0;
+    border: none;
+}
+
+.search-bar input:focus,
+.search-bar select:focus,
+.input-group-append:focus {
+    background: #d195ff;
+    color: #FFF;
+    outline: 0;
+    border: none;
+}
+
+
+.search-bar label {
+    height: 24px;
 }
 
 /* =============== mobile >= 1200 =============== */
