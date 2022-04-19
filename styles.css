@@ -23,6 +23,18 @@
     font-display: block;
 }
 
+/* Spin-Cycle-OT */
+@font-face {
+    font-family: 'spinCycle';
+    src:  url('fonts/Spin-Cycle-OT/spincycle_ot.otf') format('opentype');
+}
+
+/* source-sans-pro */
+@font-face {
+    font-family: 'sans-pro';
+    src:  url('fonts/source-sans-pro/SourceSansPro-Regular.otf') format('opentype');
+}
+
 .btn:hover,
 .btn:focus {
     opacity: 0.9;
@@ -50,6 +62,9 @@
 }
 
 /* =============== header =============== */
+header > div {
+    width: 1104px;
+}
 
 .logo {
     width: 169px;
@@ -75,13 +90,26 @@
     content: "\e911";
 }
 
+.collapse {
+    width: 234px;
+}
+
 .nav-bar-toggle:hover,
 .nav-bar-toggle:focus,
 .nav-bar-toggle:active {
     outline-color: #f0ad4e;
 }
 
+.nav-link:hover, .nav-link:active {
+    color: var(--purple) !important;
+    box-shadow: 0 4px 2px -2px white;
+}
+
 /* =============== body =============== */
+body {
+    font-family: 'sans-pro' !important;
+}
+
 .school-text {
     width: 192px;
 }
@@ -215,8 +243,9 @@ footer {
 }
 
 .courses-title {
+    font-family: 'Coiny';
     width: 480px;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 /* search-bar */
@@ -252,6 +281,9 @@ input[type=search]::placeholder {
     border: none;
 }
 
+.form-control:focus {
+    box-shadow: none !important;
+}
 
 .search-bar label {
     height: 24px;
