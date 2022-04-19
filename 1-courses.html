@@ -18,7 +18,7 @@
     </head>
     <body>
         <!-- first section -->
-        <section class="sec-smiles">&nbsp
+        <section class="courses-hero text-white pb-3 pb-sm-0">&nbsp
             <!-- header -->
             <header class="d-flex flex-column flex-sm-row align-items-center justify-content-center">
                 <div class="d-flex flex-column flex-sm-row align-items-center
@@ -38,43 +38,44 @@
                     </button>
                 </div>
             </header>
-            <div class="d-flex flex-column align-items-center w-95 mt-5 text-white">
-                <h1 class="school display-1 font-weight-bold mt-5 text-nowrap">Get Schooled</h1>
-                <div class="school-text d-flex flex-row justify-content-between">
-                    <span><b>SMILES</b></span>
-                    <span><b>GRIN</b></span>
-                    <span><b>LAUGH</b></span>
-                </div>
-                <button class="btn rounded-pill px-4 py-2 mt-5 text-white shadow" type="submit">REGISTER FOR FREE</button>
-                <div class="my-5"></div>
-                <h2 class="my-5 pt-5"><span class="text-purple"><b>Learn</b></span> from the pros</h2>
-                <div class="awards d-flex flex-column flex-md-row justify-content-center text-center w-100 pt-5">
-                    <div class="awards-grp d-flex flex-row justify-content-around">
-                        <div class="py-3 mb-5">
-                            <img class="img-fluid rounded-circle" src="images/profile_1.jpg" alt="profile_1" width="150px" height="150px">
-                            <h1 class="font-weight-bold lead pt-4">Phillip Massey</h1>
-                            <p class="card-text font-italic">« Smile of the year »<br>2018-2019</p>
-                        </div>
-                        <div class="py-3 mb-5">
-                            <img class="img-fluid rounded-circle" src="images/profile_2.jpg" alt="profile_2" width="150px" height="150px">
-                            <h1 class="font-weight-bold lead pt-4">Nannie Lawrence</h1>
-                            <p class="card-text font-italic">Best « little smile »<br>2017</p>
+            <h2 class="courses-title d-none d-sm-flex mx-auto mt-5">« Don’t cry because it’s over.</h2>
+            <h2 class="courses-title d-none d-sm-flex mx-auto mb-0 pb-5"><span class="text-purple">Smile</span>&nbsp;because it happened. »</h2>
+        </section>
+        <!-- search-bar -->
+        <section class="search-bar py-3 text-white">
+            <form class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-4 mt-3">
+                        <label for="searchInput"><b>KEYWORDS</b></label>
+                        <div class="input-group border-bottom mb-0 mb-lg-3">
+                            <span class="input-group-append">
+                                <span class="search-icon d-flex align-items-center px-2"></span>
+                            </span>
+                            <input class="form-control border-0" type="search" placeholder="Search by keywords" id="searchInput">
                         </div>
                     </div>
-                    <div class="awards-grp d-flex flex-row justify-content-around">
-                        <div class="py-3 mb-5">
-                            <img class="img-fluid rounded-circle" src="images/profile_3.jpg" alt="profile_3" width="150px" height="150px">
-                            <h1 class="font-weight-bold lead pt-4">Bruce Walters</h1>
-                            <p class="card-text font-italic">Best « Friend Smile »<br>live performance 2019</p>
+                    <div class="form-group col-12 col-sm-6 col-lg-4 mt-3">
+                        <label for="topicSelect"><b>TOPIC</b></label>
+                        <div class="border-bottom">
+                            <select class="form-control" id="topicSelect">
+                                <option class="bg-white text-body">Novice</option>
+                                <option class="bg-white text-body">Intermediate</option>
+                                <option class="bg-white text-body">Expert</option>
+                            </select>
                         </div>
-                        <div class="py-3 mb-5">
-                            <img class="img-fluid rounded-circle" src="images/profile_4.jpg" alt="profile_4" width="150px" height="150px">
-                            <h1 class="font-weight-bold lead pt-4">Henry Hughes</h1>
-                            <p class="card-text font-italic">« 24hr smiles » winner<br>2016-2019</p>
+                    </div>
+                    <div class="form-group col-12 col-sm-6 col-lg-4 mt-3">
+                        <label for="searchResult"><b>SORT BY</b></label>
+                        <div class="border-bottom">
+                            <select class="form-control border-bottom" id="exampleFormControlSelect1">
+                                <option class="bg-white text-body">Most Popular</option>
+                                <option class="bg-white text-body">Most Recent</option>
+                                <option class="bg-white text-body">Most Viewed</option>
+                            </select>
                         </div>
                     </div>
                 </div>
-            </div>
+            </form>
         </section>
     </body>
 </html>
